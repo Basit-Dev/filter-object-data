@@ -1,0 +1,18 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div {
+  width: 80%;
+  margin: 20px 20px;
+}
+
+.btn-cta {
+  margin: 10px;
+  padding: 10px 20px;
+  font-family: inherit;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  bottom: 0;
+}

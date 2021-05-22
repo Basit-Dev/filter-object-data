@@ -4,26 +4,32 @@ const users = {
   2345234: {
     name: "John",
     age: 29,
+    occupation: "Teacher"
   },
   8798129: {
     name: "Jane",
     age: 42,
+    occupation: "Musician"
   },
   1092384: {
     name: "Fred",
     age: 17,
+    occupation: "Footballer"
   },
   2346784: {
-    name: "John",
+    name: "Martin",
     age: 12,
+    occupation: "Engineer"
   },
   18974532: {
-    name: "Jane",
+    name: "Dereck",
     age: 9,
+    occupation: "Taxi Driver"
   },
   90453763: {
-    name: "Fred",
+    name: "Alan",
     age: 22,
+    occupation: "Businessman"
   },
 };
 const getContainer = document.getElementById("container");
@@ -41,6 +47,9 @@ function displayResults() {
       "<br>" +
       " Age: " +
       user.age +
+      "<br>" +
+      " Occupation: " +
+      user.occupation +
       "<p></p>";
     getContainer.appendChild(acc);
     const btn = document.getElementById("btn");
@@ -50,7 +59,6 @@ function displayResults() {
         let removeEl = document.getElementById("default")
         removeEl.remove()
       } 
-     
     });
   }); 
 }
